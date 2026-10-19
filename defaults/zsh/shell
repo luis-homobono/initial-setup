@@ -1,0 +1,3 @@
+set +h
+
+export INITIAL_SETUP_PATH="$HOME/.local/share/initial-setup"

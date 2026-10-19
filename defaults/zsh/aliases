@@ -1,0 +1,42 @@
+# File system
+alias ls='eza -lh --group-directories-first --icons=auto'
+alias lsa='ls -a'
+alias lst='eza --tree --level=2 --long --icons --git'
+alias lsta='lst -a'
+alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
+alias fd='fdfind'
+alias cd='z'
+
+# Directories
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Tools
+n() { if [ "$#" -eq 0 ]; then nvim .; else nvim "$@"; fi; }
+# alias g='git'
+# alias d='docker'
+alias bat='batcat'
+alias lzg='lazygit'
+alias lzd='lazydocker'
+
+# Git
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gcad='git commit -a --amend'
+
+
+# Utilities
+alias python="python3"
+alias pydb="python3 -m pdb"
+alias pytrace="python3 -m trace --trace"
+alias pyprofile="python3 -m cProfile"
+alias run-server="python3 -m http.server 9000"
+alias activate=". venv/bin/activate"
+alias create-env="python -m venv venv"
+alias ifconfig="ip -c a"
+# alias create-vite="npm create vite@latest"
+alias port-search="lsof -i"
+alias caffeinate="systemd-inhibit --what=idle sleep infinity"
+
+

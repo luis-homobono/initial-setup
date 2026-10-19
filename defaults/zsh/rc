@@ -1,0 +1,5 @@
+source ~/.local/share/initial-setup/defaults/zsh/shell
+source ~/.local/share/initial-setup/defaults/zsh/aliases
+# source ~/.local/share/initial-setup/defaults/zsh/functions
+# source ~/.local/share/initial-setup/defaults/zsh/prompt
+# source ~/.local/share/initial-setup/defaults/zsh/init
